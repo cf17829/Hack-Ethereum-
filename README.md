@@ -17,3 +17,6 @@ The script includes error handling to ensure that if an error occurs during the 
 The script prints information about each generated Ethereum address, including the address itself, the mnemonic phrase used to generate it, and its balance (if any). Additionally, it saves information about addresses with non-zero balances to a text file named "addresses_with_balance.txt".
 
 Overall, the script automates the process of generating Ethereum addresses, checking their balances, and saving information about addresses with non-zero balances for further analysis or use.
+
+# Disclaimer: 
+This script is provided for educational and research purposes only. Use it responsibly and at your own risk.
