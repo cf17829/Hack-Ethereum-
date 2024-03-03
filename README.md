@@ -20,3 +20,13 @@ Overall, the script automates the process of generating Ethereum addresses, chec
 
 # Disclaimer: 
 This script is provided for educational and research purposes only. Use it responsibly and at your own risk.
+
+# Donations 
+If you find this script helpful and would like to support its development, consider making a donation.
+
+Ethereum:
+0x7005957A0764cc45835612BBcE48A84f752aB133
+
+Bitcoin:
+bc1q3ff9suz2tmdfk0uddw4svpzz3ftt5wz4rj28gs
+
