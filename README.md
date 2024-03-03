@@ -1,28 +1,19 @@
-# Hack Ethereum
-This Python script allows you to generate Ethereum addresses from mnemonic phrases and check their balances using the Etherscan API. It's perfect for anyone interested in exploring the security of Ethereum wallets or conducting research on blockchain security.
+# Libraries Used:  
+The script uses the requests, time, eth_account, and mnemonic libraries.
 
-# Features:
-Generates Ethereum addresses from mnemonic phrasesChecks the balances of generated addresses using the Etherscan API
-Handles errors gracefully and saves discovered addresses with non-zero balances
-Easy-to-use with clear instructions.
+# Mnemonic Generation: 
+It generates a random mnemonic phrase using the BIP39 word list, which is commonly used for generating mnemonic phrases for cryptocurrency wallets.
 
-# Usage:
-Install the required Python libraries: eth-account, mnemonic, requests. Set up your Etherscan API key. Run the script and follow the prompts.
+# Address Generation:
+Using the generated mnemonic, the script derives Ethereum addresses and their corresponding private keys.
 
-# Donations: 
-If you find this script helpful and would like to support its development, consider making a donation.
+# Balance Checking: 
+It then checks the balance of each generated Ethereum address using the Etherscan API. If the address has a non-zero balance, it records the address, mnemonic, and balance.
 
-Ethereum:
-0x7005957A0764cc45835612BBcE48A84f752aB133
+# Error Handling: 
+The script includes error handling to ensure that if an error occurs during the process, it will save any addresses with non-zero balances that were discovered before the error occurred.
 
-Bitcoin:
-bc1q3ff9suz2tmdfk0uddw4svpzz3ftt5wz4rj28gs
+# Output: 
+The script prints information about each generated Ethereum address, including the address itself, the mnemonic phrase used to generate it, and its balance (if any). Additionally, it saves information about addresses with non-zero balances to a text file named "addresses_with_balance.txt".
 
-# Contributions: 
-Contributions and feedback are welcome! Fork this repository, make your changes, and submit a pull request.
-
-# License: 
-This project is licensed under the MIT license. See the LICENSE file for more details.
-
-# Disclaimer: 
-This script is provided for educational and research purposes only. Use it responsibly and at your own risk.
+Overall, the script automates the process of generating Ethereum addresses, checking their balances, and saving information about addresses with non-zero balances for further analysis or use.
